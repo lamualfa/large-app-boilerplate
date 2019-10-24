@@ -17,12 +17,14 @@ yarn start
 ## FEATURES
 
 - Graceful shutdown
-- Pretty logging
 - Centralized logging system
+- Pretty logging
+- Pretty error
 - Centralized config (we changed from `process.env` to require config file)
 - Integrate with Mongodb, Redis, Rabbitmq
 - Support http, https, ws, wss
 - Module aliases
+- Service namespace
 - Service class to integrate another system
 
 ## LIBRARY USES
