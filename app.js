@@ -31,23 +31,10 @@ const serviceServerHttps = require('Servers/Http/https').service;
 const serviceServerWs = require('Servers/Ws/ws').service;
 const serviceServerWss = require('Servers/Ws/wss').service;
 
-/** You only need to comment on services that you don't need. Example:
-I don't need message broker like Rabbitmq, just comment that:
-
 const services = [
   serviceDbMongodb,
   serviceDbRedis,
-  // serviceDbRabitmq,
-  serviceServerHttp,
-  serviceServerHttps,
-  serviceServerWs,
-  serviceServerWss
-];
-*/
-const services = [
-  serviceDbMongodb,
-  serviceDbRedis,
-  serviceDbRabitmq,
+  serviceDbRabitmq, // Comment this if you don't need Rabbitmq
   serviceServerHttp,
   serviceServerHttps,
   serviceServerWs,
