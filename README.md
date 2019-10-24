@@ -6,13 +6,15 @@ yarn
 ```
 
 ## RUN
-### PRODUCTION MODE (WITHOUT SUPERVISOR)
-`yarn start`
+```bash
+# PRODUCTION MODE (WITHOUT SUPERVISOR)
+yarn start
 
-### DEVELOPMENT MODE
+# DEVELOPMENT MODE
 `yarn dev`
+```
 
-### FEATURES
+## FEATURES
 
 - Graceful shutdown
 - Pretty logging
@@ -40,4 +42,6 @@ yarn
 
 - [winston](https://www.npmjs.com/package/winston)
 
-### SCREENSHOT
+## SCREENSHOT
+
+<img src="https://i.ibb.co/88HDRkL/Screenshot-from-2019-10-24-17-19-10.png" alt="Screenshot-from-2019-10-24-17-19-10" border="0">
