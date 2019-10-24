@@ -44,4 +44,4 @@ yarn start
 
 ## SCREENSHOT
 
-<img src="https://i.ibb.co/88HDRkL/Screenshot-from-2019-10-24-17-19-10.png" alt="Screenshot-from-2019-10-24-17-19-10" border="0">
+<img src="https://i.ibb.co/tC9MNRT/Screenshot-from-2019-10-24-17-19-10.png" alt="Screenshot-from-2019-10-24-17-19-10" border="0">
