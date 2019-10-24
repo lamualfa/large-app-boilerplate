@@ -1,0 +1,19 @@
+{
+    "KEYS": {
+        "DEVICE_ID": {
+            "NAME": "DEVICE ID",
+            "HEADERS_NAME": "device-id",
+            "COOKIES_NAME": "DVID",
+            "BASE_CHARSET": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_.",
+            "INDEX_CHAR_LENGTH": 25,
+            "RAND_CHAR_LENGTH": 50
+        },
+        "ACCESS_TOKEN": {
+            "NAME": "ACCESS TOKEN",
+            "HEADERS_NAME": "access-token",
+            "COOKIES_NAME": "ACCT",
+            "BASE_CHARSET": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+            "INDEX_CHAR_LENGTH": 5
+        }
+    }
+}
