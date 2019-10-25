@@ -8,10 +8,14 @@ yarn
 ## RUN
 ```bash
 # PRODUCTION MODE (WITHOUT SUPERVISOR)
+npm run start
+# or
 yarn start
 
 # DEVELOPMENT MODE
-yarn dev`
+npm run dev
+# or
+yarn dev
 ```
 
 ## FEATURES
@@ -20,6 +24,7 @@ yarn dev`
 - Centralized logging system
 - Pretty logging
 - Pretty error
+- Pretty error stack trace
 - Centralized config (we changed from `process.env` to require config file)
 - Integrate with Mongodb, Redis, Rabbitmq
 - Support Http, Https, Ws, Wss
