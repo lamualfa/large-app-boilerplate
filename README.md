@@ -11,7 +11,7 @@ yarn
 yarn start
 
 # DEVELOPMENT MODE
-`yarn dev`
+yarn dev`
 ```
 
 ## FEATURES
@@ -22,7 +22,8 @@ yarn start
 - Pretty error
 - Centralized config (we changed from `process.env` to require config file)
 - Integrate with Mongodb, Redis, Rabbitmq
-- Support http, https, ws, wss
+- Support Http, Https, Ws, Wss
+- Support using SSL Certificate
 - Module aliases
 - Service namespace
 - Service class to integrate another system
