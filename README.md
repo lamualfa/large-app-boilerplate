@@ -8,7 +8,7 @@ yarn
 ## RUN
 ```bash
 # PRODUCTION MODE (WITHOUT SUPERVISOR)
-npm run start
+npm start
 # or
 yarn start
 
